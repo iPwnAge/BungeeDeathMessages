@@ -1,0 +1,4 @@
+name: BungeeDeathMessages
+main: com.ipwnage.bungeedeathmessages.BungeeDeathMessages
+version: 1.0
+commands:
