@@ -37,7 +37,7 @@ public class BungeeDeathMessages extends JavaPlugin implements PluginMessageList
     public void onPlayerDeath(PlayerDeathEvent e) throws IOException {
         ByteArrayDataOutput out = ByteStreams.newDataOutput();
         out.writeUTF("Forward");
-        out.writeUTF("ALL");
+        out.writeUTF("ONLINE");
         out.writeUTF("Deathmessages");
         String stream = e.getDeathMessage();
         byte[] data = stream.getBytes();
